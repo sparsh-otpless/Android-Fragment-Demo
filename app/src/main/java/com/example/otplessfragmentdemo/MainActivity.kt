@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
             LoginScreenFragment()
         ).commit()
 
-        otplessView = OtplessManager.getInstance().getOtplessView(this)
     }
 
     override fun onNewIntent(intent: Intent?) {
